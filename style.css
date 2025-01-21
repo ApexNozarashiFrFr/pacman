@@ -1,9 +1,37 @@
+body {
+
+    background-color: gray;
+}
+
+.sidenote {
+
+    border: solid black 5px;
+    background-color: white;
+    width: 400px
+    
+
+}
+
+h3, p {
+
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
 .grid {
     width: 560px;
     height: 560px;
-    border: solid black 1px;
+    border: solid black 3px;
     display: flex;
     flex-wrap: wrap;
+    background-color: white;
 
 }
 
@@ -54,10 +82,13 @@
 }
 
 .maincat {
-    background-color: rgb(5, 166, 166);
-    border-radius: 10px;
     
+    background-image: url('/img/image-removebg-preview\ \(2\).png');
+    background-size: cover; 
+    background-position: center; 
 }
+    
+
 
 .scared-ghost {
     background-color: rgb(243, 4, 143);

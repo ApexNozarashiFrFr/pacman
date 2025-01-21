@@ -263,6 +263,7 @@ function moveGhost(ghost) {
             document.removeEventListener('keyup', moveMainCat)
             setTimeout(function() { alert('oei, je bent geklaard.')}, 500)
         }
+    }
 
     function checkWin() {
         if (score === 300) {
@@ -271,4 +272,3 @@ function moveGhost(ghost) {
             setTimeout(function() { alert('gg ez')}, 500)
         }
     }
-}
