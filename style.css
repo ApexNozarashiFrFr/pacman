@@ -1,0 +1,66 @@
+.grid {
+    width: 560px;
+    height: 560px;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.grid div {
+
+    width: 20px;
+    height: 20px;
+    
+}
+
+.point {
+    background-color: palevioletred;
+    box-sizing: border-box;
+    border: solid white 5px
+}
+
+.border{
+
+    background-color: darkslategray;
+    
+}
+
+
+.power-pellet {
+
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.cat1 {
+    background-color: red;
+    
+}
+
+.cat2 {
+    background-color: blue;
+    
+}
+
+.cat3 {
+    background-color: green;
+    
+}
+
+.cat4 {
+    background-color: orange;
+    
+}
+
+.maincat {
+    background-color: rgb(5, 166, 166);
+    border-radius: 10px;
+    
+}
+
+.scared-ghost {
+    background-color: rgb(243, 4, 143);
+    
+}
+
